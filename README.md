@@ -9,7 +9,11 @@
 
 *OpenAI*k argitaratutako ereduak emaitza nahiko kaxkarrak eskeintzen dizkigu euskarazko audioetan.
 
-Alabaina, [Mozilla Common Voice](https://commonvoice.mozilla.org) proiektuari esker, jatorrizko ereduak trebatzea posible da, emaitza txukunagoak lortzeko.
+Alabaina, [Mozilla Common Voice](https://commonvoice.mozilla.org) proiektuan jasotako milaka grabazioei esker, jatorrizko ereduak trebatzea posible da, emaitza txukunagoak lortzeko.
+
+### Zeinbat adibide
+
+[![Amets Arzallus](https://github.com/user-attachments/assets/1b9dbc74-04ce-4716-9705-c2666ba9fc0d)](https://www.youtube.com/watch?v=JQVJawzT6Vo)
 
 ## Non aurki daitezke euskarazko ereduak?
 
