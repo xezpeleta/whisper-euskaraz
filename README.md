@@ -65,6 +65,9 @@ Ondoren, Whisper.cpp erabili dezakegu:
 ./main -m models/ggml-medium.eu.bin -f samples/fitxategia.wav -l eu -pc
 ```
 
+![irudia](https://github.com/user-attachments/assets/65abc864-41bf-4bab-ad56-c654d8af4f44)
+
+
 
 Azpitituluak sortzeko, honako agindu hau erabil daitezke:
 
