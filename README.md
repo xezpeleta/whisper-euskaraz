@@ -15,6 +15,9 @@ Alabaina, [Mozilla Common Voice](https://commonvoice.mozilla.org) proiektuan jas
 
 [![Amets Arzallus](https://github.com/user-attachments/assets/1b9dbc74-04ce-4716-9705-c2666ba9fc0d)](https://www.youtube.com/watch?v=JQVJawzT6Vo)
 
+[![Xabier Usabiaga](https://github.com/user-attachments/assets/959e13b5-abe5-41c2-b6ef-d8501a8597e2)](https://www.youtube.com/watch?v=mzcxip0FRA0)
+
+
 ## Non aurki daitezke euskarazko ereduak?
 
 Trebatutako ereduak *Hugging Face* webgunean aurki daitezke:
