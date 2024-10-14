@@ -1,5 +1,9 @@
 # Whisper euskarazko ereduak sortzeko prozesua
 
+![train-loss](../public/assets/image.png)
+
+![eval-loss](../public/assets/image-1.png)
+
 ## Beharrezko hardwarea
 
 *Fine-tuning* prozesua burutzeko, beharrezkoa da GPU duen ordenagailua. Proba honetan, *Small* eta *Medium* ereduak trebatzeko, NVIDIA RTX 3090 txartelak erabili dira Ubuntu Linux 24.04 sisteman.
