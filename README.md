@@ -1,6 +1,11 @@
 
 # Whisper euskaraz
 
+Proiektu honetan euskarazko *Whisper* ereduei buruzko informazioa aurkituko duzu, bai eta hauek erabiltzeko jakin beharrezko guztia ere.
+
+Ereduak trebatzeko jarraitutako *fine-tuning* prozesuaren inguruan informazio gehiago [hemen](training/README.md) aurki dezakezu.
+
+
 ## Zer da Whisper ?
 
 **_Whisper_** ahots errekonozimendurako adimen artifizialeko tresna da. *OpenAI* enpresak 2022 urtean [argitaratu zuen](https://openai.com/index/whisper/) *software libre* gisa (MIT lizentzipean).
@@ -10,6 +15,8 @@
 *OpenAI*k argitaratutako ereduak emaitza nahiko kaxkarrak eskeintzen dizkigu euskarazko audioetan.
 
 Alabaina, [Mozilla Common Voice](https://commonvoice.mozilla.org) proiektuan jasotako milaka grabazioei esker, jatorrizko ereduak trebatzea posible da, emaitza txukunagoak lortzeko.
+
+Prozesu honi *fine-tuning* deitzen zaio. Honi buruz gehiago jakin nahi baduzu, [TRAINING](training/README.md) atalera jo dezakezu.
 
 ### Zeinbat adibide
 
