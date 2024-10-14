@@ -79,6 +79,22 @@ Erabili `run.sh` script-a fine-tuning prozesua hasteko. Aurrez ezarritako parame
 
 *Learning rate* hiperparametroa ezartzeko, [taula hau](https://github.com/vasistalodagala/whisper-finetune?tab=readme-ov-file#hyperparameter-tuning) erabili erreferentzi gisa.
 
+## Exekutatu
+
+```bash
+./run.sh
+```
+
+Entrenamendurako script-a exekutatzean, hurrengo pausoak egingo dira:
+- Jatorrizko eredua deskargatuko du
+- Dataset-a deskargatuko du
+- Tokenizatuko du
+- Fine-tuning prozesua burutuko du
+- Ebaluazioa egingo du
+- Emaitzak gordeko ditu
+- Tensorboard-eko log-ak gordeko ditu
+- Hugging Face-ra argitaratuko du
+
 ## Emaitzak
 
 ![train-loss](../public/assets/image.png)
