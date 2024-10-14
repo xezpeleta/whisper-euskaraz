@@ -3,7 +3,7 @@
 
 ## Zer da Whisper ?
 
-**_Whisper_** ahots errekonozimendurako adimen artifizialeko tresna da. *OpenAI* enpresak 2022 urtean argitaratu zuen *software libre* gisa (MIT lizentzipean).
+**_Whisper_** ahots errekonozimendurako adimen artifizialeko tresna da. *OpenAI* enpresak 2022 urtean [argitaratu zuen](https://openai.com/index/whisper/) *software libre* gisa (MIT lizentzipean).
 
 ## Euskarazko audioak transkribatzeko gai da?
 
