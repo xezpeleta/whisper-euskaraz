@@ -1,5 +1,14 @@
 # Whisper euskarazko ereduak sortzeko prozesua
 
+## Erabilitako erreferentziak
+
+Ereduaren lehen fine-tuning prozesua 2022ko abenduan egin nuen, hurrengo iturriak erabiliz:
+
+- [Fine-tune whisper for multilingual ASR with Transformers (Sanchit Gandhi)](https://huggingface.co/blog/fine-tune-whisper)
+- [Hugging Face Whisper fine-tuning event](https://github.com/huggingface/community-events/tree/main/whisper-fine-tuning-event)
+
+Ordundik tresna hauek erabili ditut, beharrezko aldaketak eginez.
+
 ## Beharrezko hardwarea
 
 *Fine-tuning* prozesua burutzeko, beharrezkoa da GPU duen ordenagailua. Proba honetan, *Small* eta *Medium* ereduak trebatzeko, NVIDIA RTX 3090 txartelak erabili dira Ubuntu Linux 24.04 sisteman.
