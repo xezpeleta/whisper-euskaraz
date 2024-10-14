@@ -1,9 +1,5 @@
 # Whisper euskarazko ereduak sortzeko prozesua
 
-![train-loss](../public/assets/image.png)
-
-![eval-loss](../public/assets/image-1.png)
-
 ## Beharrezko hardwarea
 
 *Fine-tuning* prozesua burutzeko, beharrezkoa da GPU duen ordenagailua. Proba honetan, *Small* eta *Medium* ereduak trebatzeko, NVIDIA RTX 3090 txartelak erabili dira Ubuntu Linux 24.04 sisteman.
@@ -73,3 +69,9 @@ Erabili `run.sh` script-a fine-tuning prozesua hasteko. Aurrez ezarritako parame
 - `--per_device_train_batch_size`: *Batch size" balioa (Ezarri zure GPUaren ezaugarrien arabera)
 
 *Learning rate* hiperparametroa ezartzeko, [taula hau](https://github.com/vasistalodagala/whisper-finetune?tab=readme-ov-file#hyperparameter-tuning) erabili erreferentzi gisa.
+
+## Emaitzak
+
+![train-loss](../public/assets/image.png)
+
+![eval-loss](../public/assets/image-1.png)
