@@ -1,7 +1,7 @@
 
 # Whisper euskaraz
 
-Proiektu honetan euskarazko *Whisper* ereduei buruzko informazioa aurkituko duzu, bai eta hauek erabiltzeko jakin beharrezko guztia ere.
+Proiektu honetan euskarazko *Whisper* ereduei buruzko informazioa aurkituko duzu.
 
 Ereduak trebatzeko jarraitutako *fine-tuning* prozesuaren inguruan informazio gehiago [hemen](training/README.md) aurki dezakezu.
 
@@ -19,6 +19,8 @@ Alabaina, [Mozilla Common Voice](https://commonvoice.mozilla.org) proiektuan jas
 Prozesu honi *fine-tuning* deitzen zaio. Honi buruz gehiago jakin nahi baduzu, [TRAINING](training/README.md) atalera jo dezakezu.
 
 ### Zeinbat adibide
+
+Euskarazko *medium* eredua erabiliz, hurrengo audio hauek transkribatu dira adibide gisa:
 
 [![Amets Arzallus](https://github.com/user-attachments/assets/1b9dbc74-04ce-4716-9705-c2666ba9fc0d)](https://www.youtube.com/watch?v=JQVJawzT6Vo)
 
@@ -55,7 +57,7 @@ Konpilatu:
 make
 ```
 
-Deskargatu euskarazko eredua `models` direktoriora:
+Deskargatu euskarazko eredua `models` direktoriora :(*medium* eredua erabiltzea gomendatzen da)
 
 ```bash
 curl -L "https://huggingface.co/xezpeleta/whisper-medium-eu/resolve/main/ggml-medium.eu.bin?download=true" -o models/ggml-medium-eu.bin
