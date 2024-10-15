@@ -4,6 +4,8 @@
 
 Ondorengo taula honetan ikus daitezke Whisper jatorrizko (*pre-trained*) ereduaren eta moldatutako euskarazko ereduaren ebaluazio emaitzak.
 
+*Oharra: normalizatutako WER/CER balioak*
+
 ### Whisper *small* eredua
 
 #### Jatorrizko eredua (*pre-trained*)
@@ -22,4 +24,17 @@ Ondorengo taula honetan ikus daitezke Whisper jatorrizko (*pre-trained*) ereduar
 |2023/12 | whisper-small-eu | 12.01 | - | CV16.0 |
 |2024/10 | whisper-small-eu | 11.84 | 2.31 | CV17.0 | 
 
-*Oharra: normalizatutako WER/CER balioak*
+## Whisper *medium* eredua
+
+### Jatorrizko eredua (*pre-trained*)
+
+| Data | Eredua | WER | CER | Dataset |
+| ---- | ------ | --- | --- | ------- |
+
+### Euskarazko ereduak (*fine-tuned*)
+
+| Data | Eredua | WER | CER | Dataset |
+| ---- | ------ | --- | --- | ------- |
+| 2023/07 | whisper-medium-eu | 12.88 | - | CV13.0 |
+| 2023/12 | whisper-medium-eu | 9.18 | - | CV16.0 |
+| 2024/10 | whisper-medium-eu | 8.80 | - | CV17.0 |
