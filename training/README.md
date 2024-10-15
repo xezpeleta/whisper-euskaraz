@@ -2,18 +2,18 @@
 
 ## Erabilitako erreferentziak
 
-Ereduaren lehen fine-tuning prozesua 2022ko abenduan egin nuen, hurrengo iturriak erabiliz:
+Ereduaren lehen *fine-tuning* prozesua 2022ko abenduan egin nuen, hurrengo iturri hauetan oinarrituz:
 
 - [Fine-tune whisper for multilingual ASR with Transformers (Sanchit Gandhi)](https://huggingface.co/blog/fine-tune-whisper)
 - [Hugging Face Whisper fine-tuning event](https://github.com/huggingface/community-events/tree/main/whisper-fine-tuning-event)
 
-Ordundik tresna hauek erabili ditut, beharrezko aldaketak eginez.
+Gaur egun prozesua errepikatzeko moldaketa txikiak egin behar izan zaizkie fitxategi hauei. TRAINING direktorioan bertan aurkituko dituzu moldatutako fitxategiak.
 
 ## Beharrezko hardwarea
 
 *Fine-tuning* prozesua burutzeko, beharrezkoa da GPU duen ordenagailua. Proba honetan, *Small* eta *Medium* ereduak trebatzeko, NVIDIA RTX 3090 txartelak erabili dira Ubuntu Linux 24.04 sisteman.
 
-Noski, Nvidia driver egokia instalatuta izan behar da, baita CUDA eta cuDNN liburutegiak ere.
+Nvidia driver egokia instalatuta izan behar da, baita CUDA eta cuDNN liburutegiak ere.
 
 ## Ingurunea prestatu
 
@@ -51,9 +51,9 @@ pip install -r requirements.txt
 
 ## (Aukerazkoa) Autentikatu Hugging Face-en
 
-Eredua trebatu ostean, argitaratu eta elkarbanatu ahal izateko, Hugging Faceko zerbitzuan erabiltzailea sortue ta ondoren ordenagailutik autentikatzea beharrezkoa izango da.
+Eredua trebatu ostean, argitaratu eta elkarbanatu ahal izateko, Hugging Faceko zerbitzuan erabiltzailea sortu ta ondoren ordenagailutik autentikatzea beharrezkoa izango da.
 
-Datasetak deskargatzeko ere posible da autentikatua egon behar izatea.
+HFeko dataset batzuk deskargatzeko ere autentikatua egon behar da (erabilera baldintzak onartu behar dira).
 
 Horretarako, jarraitu hurrengo pausoak:
 
@@ -61,6 +61,8 @@ Horretarako, jarraitu hurrengo pausoak:
 git config --global credential.helper store
 huggingface-cli login
 ```
+
+Hugging Faceko webgunean sartu eta API gako bat lortu. Gako hori erabiliko da *fine-tuning* prozesua amaitutakoan emaitzak argitaratzeko.
 
 ## (Aukerazkoa) Konfiguratu Wandb
 
