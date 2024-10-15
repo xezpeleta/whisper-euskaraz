@@ -12,7 +12,7 @@ Ereduak trebatzeko jarraitutako *fine-tuning* prozesuaren inguruan informazio ge
 
 ## Euskarazko audioak transkribatzeko gai da?
 
-*OpenAI*k argitaratutako ereduak emaitza nahiko kaxkarrak eskeintzen dizkigu euskarazko audioetan.
+*OpenAI*k argitaratutako ereduek emaitza nahiko kaxkarrak eskeintzen dizkigute euskarazko audioetan.
 
 Alabaina, [Mozilla Common Voice](https://commonvoice.mozilla.org) proiektuan jasotako milaka grabazioei esker, jatorrizko ereduak trebatzea posible da, emaitza txukunagoak lortzeko.
 
