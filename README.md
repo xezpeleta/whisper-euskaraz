@@ -18,7 +18,7 @@ Alabaina, [Mozilla Common Voice](https://commonvoice.mozilla.org) proiektuan jas
 
 Prozesu honi *fine-tuning* deitzen zaio. Honi buruz gehiago jakin nahi baduzu, [TRAINING](training/README.md) atalera jo dezakezu.
 
-Jatorrizko ereduen eta trebatutako ereduen arteko diferentziak ikus daitezke [EVALUATION](eval/README.md) atalean.
+Jatorrizko ereduen eta trebatutako ereduen arteko diferentziak ikus daitezke [EVAL](eval/README.md) atalean.
 
 ### Zeinbat adibide
 
