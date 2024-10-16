@@ -42,6 +42,16 @@ Ondorengo taula honetan ikus daitezke Whisper jatorrizko (*pre-trained*) ereduar
 
 ![Emaitzen bilakaera](../public/assets/image-2.png)
 
+## Bestelako alternatibak
+
+[HiTZ zentroak](https://www.hitz.eus/) 2024ko apirilean honako bi STT eredu berri hauek argitaratu ditu, Nvidia NeMo teknologia erabiliz:
+
+- [HiTZ/stt_eu_conformer_transducer_large](https://huggingface.co/HiTZ/stt_eu_conformer_transducer_large) (WER 2.79 w/ CV16.1)
+- [HiTZ/stt_eu_conformer_ctc_large](https://huggingface.co/HiTZ/stt_eu_conformer_ctc_large) (*WER 2.42* w/ CV16.1)
+
+Hauek dira momentuan euskarazko STT eredu onenak.
+
+
 ## Nola burutu ebaluazioa?
 
 ### *Fine-tuning* egiteko prozesuan bertan
