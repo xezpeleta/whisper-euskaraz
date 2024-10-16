@@ -79,7 +79,16 @@ Erabili `run.sh` script-a fine-tuning prozesua hasteko. Aurrez ezarritako parame
 - `--learning_rate`: *Learning rate* balioa ezarri (ereduaren tamainaaren arabera)
 - `--per_device_train_batch_size`: *Batch size" balioa (Ezarri zure GPUaren ezaugarrien arabera)
 
-*Learning rate* hiperparametroa ezartzeko, [taula hau](https://github.com/vasistalodagala/whisper-finetune?tab=readme-ov-file#hyperparameter-tuning) erabili erreferentzi gisa.
+*Learning rate* hiperparametroa ezartzeko, [taula hau](https://github.com/vasistalodagala/whisper-finetune?tab=readme-ov-file#hyperparameter-tuning) erabili erreferentzi gisa:
+
+| Model Size | Max Learning Rate (paper) | Suggested fine-tuning Learning Rate (40x smaller) |
+|   :---:    |           :---:           |                      :---:                        |
+|   tiny     |      $1.5$ x $10^{-3}$    |                  $3.75$ x $10^{-5}$               |
+|   base     |      $1$ x $10^{-3}$      |                  $2.5$ x $10^{-5}$                |
+|   small    |      $5$ x $10^{-4}$      |                  $1.25$ x $10^{-5}$               |
+|   medium   |      $2.5$ x $10^{-4}$    |                  $6.25$ x $10^{-6}$               |
+|   large    |      $1.75$ x $10^{-4}$   |                  $4.375$ x $10^{-6}$              |
+|   large-v2 |      $2.0$ x $10^{-4}$    |                  $5$ x $10^{-6}$                  |
 
 ## Exekutatu
 
