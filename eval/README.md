@@ -10,9 +10,9 @@ Ondorengo taula honetan ikus daitezke Whisper jatorrizko (*pre-trained*) ereduar
 
 #### Jatorrizko eredua (*pre-trained*)
 
-| Data | Eredua | WER | CER | Dataset |
-| ---- | ------ | --- | --- | ------- |
-|2024/10 | whisper-small | 159.58 | 57.71 | CV17.0 |
+| Data | Eredua | WER | CER |
+| ---- | ------ | --- | --- |
+|2022/10 | whisper-small | 159.58 | 57.71 |
 
 
 #### Euskarazko ereduak (*fine-tuned*)
@@ -28,9 +28,9 @@ Ondorengo taula honetan ikus daitezke Whisper jatorrizko (*pre-trained*) ereduar
 
 #### Jatorrizko eredua (*pre-trained*)
 
-| Data | Eredua | WER | CER | Dataset |
-| ---- | ------ | --- | --- | ------- |
-| 2024/10 | whisper-medium  | 128.34  |  57.2 | CV17.0 |
+| Data | Eredua | WER | CER |
+| ---- | ------ | --- | --- |
+| 2022/10 | whisper-medium  | 128.34  | 57.2 |
 
 #### Euskarazko ereduak (*fine-tuned*)
 
@@ -40,6 +40,7 @@ Ondorengo taula honetan ikus daitezke Whisper jatorrizko (*pre-trained*) ereduar
 | 2023/12 | whisper-medium-eu | 9.18 | - | CV16.0 | 220 |
 | 2024/10 | whisper-medium-eu | **8.80** | 1.66 | CV17.0 | 274 |
 
+![Emaitzen bilakaera](../public/assets/image-2.png)
 
 ## Nola burutu ebaluazioa?
 
