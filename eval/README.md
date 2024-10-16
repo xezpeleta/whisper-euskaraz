@@ -38,7 +38,7 @@ Ondorengo taula honetan ikus daitezke Whisper jatorrizko (*pre-trained*) ereduar
 | ---- | ------ | --- | --- | ------- | ------------ |
 | 2023/07 | whisper-medium-eu | 12.88 | - | CV13.0 | 101 |
 | 2023/12 | whisper-medium-eu | 9.18 | - | CV16.0 | 220 |
-| 2024/10 | whisper-medium-eu | **8.80** | - | CV17.0 | 274 |
+| 2024/10 | whisper-medium-eu | **8.80** | 1.66 | CV17.0 | 274 |
 
 
 ## Nola burutu ebaluazioa?
