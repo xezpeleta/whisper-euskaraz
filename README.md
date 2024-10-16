@@ -1,9 +1,11 @@
 
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/xezpeleta/whisper-euskaraz) [![Follow me on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/follow-me-on-HF-md-dark.svg)](https://huggingface.co/xezpeleta)
+
 # Whisper euskaraz
 
 Proiektu honetan euskarazko *Whisper* ereduei buruzko informazioa aurkituko duzu.
 
-Ereduak trebatzeko jarraitutako *fine-tuning* prozesuaren inguruan informazio gehiago [hemen](training/README.md) aurki dezakezu.
+Ereduak trebatzeko jarraitutako *fine-tuning* prozesuaren inguruan informazio gehiago [hemen](train/README.md) aurki dezakezu.
 
 
 ## Zer da Whisper ?
@@ -16,9 +18,10 @@ Ereduak trebatzeko jarraitutako *fine-tuning* prozesuaren inguruan informazio ge
 
 Alabaina, [Mozilla Common Voice](https://commonvoice.mozilla.org) proiektuan jasotako milaka grabazioei esker, jatorrizko ereduak trebatzea posible da, emaitza txukunagoak lortzeko.
 
-Prozesu honi *fine-tuning* deitzen zaio. Honi buruz gehiago jakin nahi baduzu, [TRAINING](training/README.md) atalera jo dezakezu.
+- Trebatze prozesu honi *fine-tuning* deitzen zaio. Honi buruz gehiago jakin nahi baduzu, [TRAIN](train/README.md) atalera jo dezakezu.
+- Jatorrizko ereduen eta trebatutako ereduen arteko diferentziak ikus daitezke [EVAL](eval/README.md) atalean.
 
-Jatorrizko ereduen eta trebatutako ereduen arteko diferentziak ikus daitezke [EVAL](eval/README.md) atalean.
+Jarraian euskarazko *Whisper* ereduak deskargatu eta erabiltzeko urratsak azalduko dira.
 
 ### Zeinbat adibide
 
@@ -31,13 +34,13 @@ Euskarazko *medium* eredua erabiliz, hurrengo audio hauek transkribatu dira adib
 
 ## Non aurki daitezke euskarazko ereduak?
 
-Trebatutako ereduak *Hugging Face* webgunean aurki daitezke:
+Trebatutako ereduak [*Hugging Face*](https://huggingface.co/xezpeleta/) webgunean aurki daitezke:
 
 | Eredua   | Tamaina | WER   | GGML                                                                                                           |                                                                |
 | -------- | ------- | ----- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| *small*  | 488 MB  | 11.83 | [Deskargatu](https://huggingface.co/xezpeleta/whisper-small-eu/resolve/main/ggml-small.eu.bin?download=true)   | [Webgunea](https://huggingface.co/xezpeleta/whisper-small-eu)  |
-| *medium* | 1.53 GB | 8.80  | [Deskargatu](https://huggingface.co/xezpeleta/whisper-medium-eu/resolve/main/ggml-medium.eu.bin?download=true) | [Webgunea](https://huggingface.co/xezpeleta/whisper-medium-eu) |
-| *large*  | 3.1 GB  | 7.21  | [Deskargatu](https://huggingface.co/xezpeleta/whisper-large-eu/resolve/main/ggml-large.eu.bin?download=true)   | [Webgunea](https://huggingface.co/xezpeleta/whisper-large-eu)  |
+| *small*  | 488 MB  | 11.83 | [Deskargatu](https://huggingface.co/xezpeleta/whisper-small-eu/resolve/main/ggml-small.eu.bin?download=true)   | [![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm.svg)](https://huggingface.co/xezpeleta/whisper-small-eu)  |
+| *medium* | 1.53 GB | 8.80  | [Deskargatu](https://huggingface.co/xezpeleta/whisper-medium-eu/resolve/main/ggml-medium.eu.bin?download=true) | [![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm.svg)](https://huggingface.co/xezpeleta/whisper-medium-eu) |
+| *large*  | 3.1 GB  | 7.21  | [Deskargatu](https://huggingface.co/xezpeleta/whisper-large-eu/resolve/main/ggml-large.eu.bin?download=true)   | [![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm.svg)](https://huggingface.co/xezpeleta/whisper-large-eu)  |
 
 Emaitza onak lortzeko, **Medium** eredua erabiltzea gomendatzen da.
 
