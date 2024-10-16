@@ -62,7 +62,7 @@ Konpilatu:
 make
 ```
 
-Deskargatu euskarazko eredua `models` direktoriora :(*medium* eredua erabiltzea gomendatzen da)
+Deskargatu euskarazko eredua (*GGML* fitxategia) `models` direktoriora (__*medium* eredua erabiltzea gomendatzen da__)
 
 ```bash
 curl -L "https://huggingface.co/xezpeleta/whisper-medium-eu/resolve/main/ggml-medium.eu.bin?download=true" -o models/ggml-medium-eu.bin
@@ -111,6 +111,9 @@ ffmpeg -i samples/jatorrizko_bideoa.mp4 -vf subtitles=samples/azpitituluak.srt s
 ## Nola erabili? (Windows) -osatzeke-
 
 Windows sistema eragilean, [SubtitleEdit](https://github.com/SubtitleEdit/subtitleedit) erabili daiteke.
+
+> [!OHARRA]
+> Atal hau oraindik osatzen ari gara.
 
 ## Zeintzuk dira detektatutako arazo nagusiak?
 
