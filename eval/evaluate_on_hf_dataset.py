@@ -87,12 +87,17 @@ def main(args):
         args.config,
         split=args.split,
         token=True,
+        streaming=args.streaming
     )
 
     text_column_name = get_text_column_names(dataset.column_names)
     dataset = dataset.cast_column("audio", Audio(sampling_rate=16000))
-    dataset = dataset.map(normalise, num_proc=2)
-    dataset = dataset.filter(is_target_text_in_range, input_columns=[text_column_name], num_proc=2)
+    if args.streaming:
+        dataset = dataset.map(normalise)
+        dataset = dataset.filter(lambda x: is_target_text_in_range(get_text(x)))
+    else:
+        dataset = dataset.map(normalise, num_proc=2)
+        dataset = dataset.filter(is_target_text_in_range, input_columns=[text_column_name], num_proc=2)
 
     predictions = []
     references = []
@@ -214,6 +219,13 @@ if __name__ == "__main__":
         required=False,
         default=16,
         help="Number of samples to go through each streamed batch.",
+    )
+    parser.add_argument(
+        "--streaming",
+        type=lambda x: (str(x).lower() == 'true'),
+        required=False,
+        default=False,
+        help="Whether to stream the dataset instead of downloading it completely. Useful for large datasets.",
     )
     parser.add_argument(
         "--output_dir", 
