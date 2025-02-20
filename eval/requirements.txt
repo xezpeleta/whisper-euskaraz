@@ -1,10 +1,10 @@
 --extra-index-url https://download.pytorch.org/whl/cu113
-transformers
-evaluate
+transformers>=4.33.0
+evaluate>=0.4.0
 jiwer
-datasets
-tqdm
-torch
-soundfile
+datasets>=2.14.5
+tqdm>=4.65.0
+torch>=2.0.1
+soundfile>=0.12.1
 librosa
-soundfile
+numpy>=1.24.3
