@@ -10,4 +10,5 @@ python3 evaluate_on_hf_dataset_cv.py \
 --device 0 \
 --batch_size 16 \
 --output_dir predictions \
---streaming True
+--streaming True \
+--is_common_voice True
