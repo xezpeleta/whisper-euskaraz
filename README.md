@@ -36,11 +36,16 @@ Euskarazko *medium* eredua erabiliz, hurrengo audio hauek transkribatu dira adib
 
 Trebatutako ereduak [*Hugging Face*](https://huggingface.co/xezpeleta/) webgunean aurki daitezke:
 
-| Eredua   | Tamaina | WER   | GGML                                                                                                           |                                                                |
-| -------- | ------- | ----- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| *small*  | 488 MB  | 11.83 | [Deskargatu](https://huggingface.co/xezpeleta/whisper-small-eu/resolve/main/ggml-small.eu.bin?download=true)   | [![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm.svg)](https://huggingface.co/xezpeleta/whisper-small-eu)  |
-| *medium* | 1.53 GB | 8.80  | [Deskargatu](https://huggingface.co/xezpeleta/whisper-medium-eu/resolve/main/ggml-medium.eu.bin?download=true) | [![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm.svg)](https://huggingface.co/xezpeleta/whisper-medium-eu) |
-| *large*  | 3.1 GB  | 7.21  | [Deskargatu](https://huggingface.co/xezpeleta/whisper-large-eu/resolve/main/ggml-large.eu.bin?download=true)   | [![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm.svg)](https://huggingface.co/xezpeleta/whisper-large-eu)  |
+| Eredua   | Tamaina | WER   | GGML | CTranslate2 | |
+| -------- | ------- | ----- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ---- |
+| *tiny*   | 37.8M   | 13.56 | [Deskargatu](https://huggingface.co/xezpeleta/whisper-tiny-eu/resolve/main/ggml-tiny.eu.bin?download=true)     | [whisper-tiny-eu-ct2](https://huggingface.co/xezpeleta/whisper-tiny-eu-ct2), [whisper-tiny-eu-ct2-int8](https://huggingface.co/xezpeleta/whisper-tiny-eu-ct2-int8) | [![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm.svg)](https://huggingface.co/xezpeleta/whisper-tiny-eu)   |
+| *base* | 72.6M | 10.78 | [Deskargatu](https://huggingface.co/xezpeleta/whisper-base-eu/resolve/main/ggml-base.eu.bin?download=true) | [whisper-base-eu-ct2](https://huggingface.co/xezpeleta/whisper-base-eu-ct2), [whisper-base-eu-ct2-int8](https://huggingface.co/xezpeleta/whisper-base-eu-ct2-int8) | [![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm.svg)](https://huggingface.co/xezpeleta/whisper-base-eu) |
+| *small*  | 242M (488MB)  | 7.63 | [Deskargatu](https://huggingface.co/xezpeleta/whisper-small-eu/resolve/main/ggml-small.eu.bin?download=true)   | [whisper-small-eu-ct2](https://huggingface.co/xezpeleta/whisper-small-eu-ct2), [whisper-small-eu-ct2-int8](https://huggingface.co/xezpeleta/whisper-small-eu-ct2-int8) | [![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm.svg)](https://huggingface.co/xezpeleta/whisper-small-eu)  |
+| *medium* | 764M (1.53GB) | 7.14  | [Deskargatu](https://huggingface.co/xezpeleta/whisper-medium-eu/resolve/main/ggml-medium.eu.bin?download=true) | [whisper-medium-eu-ct2](https://huggingface.co/xezpeleta/whisper-medium-eu-ct2) | [![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm.svg)](https://huggingface.co/xezpeleta/whisper-medium-eu) |
+| *large*  | 1.54B (3.1GB)  | 4.84  | [Deskargatu](https://huggingface.co/xezpeleta/whisper-large-eu/resolve/main/ggml-large.eu.bin?download=true)   | [whisper-large-v3-eu-ct2](https://huggingface.co/xezpeleta/whisper-large-v3-eu-ct2) | [![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm.svg)](https://huggingface.co/xezpeleta/whisper-large-eu)  |
+
+*OHARRA*: ebaluazio datuak *Mozilla Common Voice 18.0* datuetan oinarrituta daude, `test` zatian eta normalizatutako *WER* balioak erabiliz. Informazio gehiagorako, [EVAL](eval/README.md) atalera jo dezakezu.
+
 
 Emaitza onak lortzeko, **Medium** eredua erabiltzea gomendatzen da.
 
